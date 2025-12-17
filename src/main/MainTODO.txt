@@ -1,0 +1,3 @@
+TODO - implement CI/CD (deployment delivery)
+
+TODO - initialize tables and data
