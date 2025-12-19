@@ -16,8 +16,8 @@ public class DbLogger implements CommandLineRunner {
     public void run(String... args) throws Exception {
         try (var conn = dataSource.getConnection()) {
             // Force a simple query to test authentication
-            // var stmt = conn.createStatement();
-            //stmt.execute("SELECT 1");
+             var stmt = conn.createStatement();
+            stmt.execute("SELECT 1");
             System.out.println("DB connection is valid: " + conn.getMetaData().getURL());
         }
     }
