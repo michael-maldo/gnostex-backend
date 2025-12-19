@@ -1,3 +1,4 @@
+/*
 package app.gnostex.gnostexbackend;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -22,4 +23,4 @@ public class DbLogger implements CommandLineRunner {
         }
     }
 }
-
+*/
